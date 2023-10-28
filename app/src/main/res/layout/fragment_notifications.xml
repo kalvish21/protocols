@@ -11,9 +11,50 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:ems="10"
-        android:hint="Profile name"
+        android:hint="Profile Name: "
         android:inputType="text"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="87dp" />
+    <EditText
+        android:id="@+id/profile_talent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Talent: "
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/profile_name"
+        tools:layout_editor_absoluteX="87dp" />
+
+    <EditText
+        android:id="@+id/profile_location"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Location: "
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/profile_talent"
+        tools:layout_editor_absoluteX="87dp" />
+    <EditText
+        android:id="@+id/profile_exp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Experience: "
+        android:inputType="text"
+        app:layout_constraintTop_toBottomOf="@id/profile_location"
+        tools:layout_editor_absoluteX="87dp" />
+
+    <EditText
+        android:id="@+id/profile_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:hint="Background: "
+        app:layout_constraintTop_toBottomOf="@id/profile_exp"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="242dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,20 +10,19 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.artyzt.R;
-import com.example.artyzt.ui.home.ArtistHomeAdapter;
 
 public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.ViewHolder> {
     @NonNull
-@Override
-public DashboardAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-    Context context = parent.getContext();
-    LayoutInflater inflater = LayoutInflater.from(context);
+    @Override
+    public DashboardAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        Context context = parent.getContext();
+        LayoutInflater inflater = LayoutInflater.from(context);
 
-    View artistRow = inflater.inflate(R.layout.artist_row, parent, false);
+        View artistRow = inflater.inflate(R.layout.artist_row, parent, false);
 
-    DashboardAdapter.ViewHolder viewHolder = new DashboardAdapter.ViewHolder(artistRow);
-    return viewHolder;
-}
+        DashboardAdapter.ViewHolder viewHolder = new DashboardAdapter.ViewHolder(artistRow);
+        return viewHolder;
+    }
 
     @Override
     public void onBindViewHolder(@NonNull DashboardAdapter.ViewHolder holder, int position) {

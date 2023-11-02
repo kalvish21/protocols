@@ -15,8 +15,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.artyzt.databinding.FragmentDashboardBinding;
 import com.example.artyzt.ui.userprofile.UserProfileActivity;
 
-import java.util.logging.Logger;
-
 public class DashboardFragment extends Fragment {
 
     private FragmentDashboardBinding binding;

@@ -8,7 +8,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.artyzt.R;
-import com.example.artyzt.databinding.ActivityMainBinding;
 import com.example.artyzt.databinding.ActivityProfileBinding;
 
 public class UserProfileActivity extends AppCompatActivity {

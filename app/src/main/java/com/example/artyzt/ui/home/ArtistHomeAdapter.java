@@ -12,6 +12,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.artyzt.R;
 
 public class ArtistHomeAdapter extends RecyclerView.Adapter<ArtistHomeAdapter.ViewHolder> {
+
+    private View.OnClickListener listener;
+    ArtistHomeAdapter(View.OnClickListener listener) {
+        this.listener = listener;
+    }
+
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -30,6 +36,8 @@ public class ArtistHomeAdapter extends RecyclerView.Adapter<ArtistHomeAdapter.Vi
         holder.artistExp.setText("5 Years");
         holder.artistLoc.setText("New Jersey");
         holder.artistTalent.setText("Drums");
+
+        holder.itemView.setOnClickListener(listener);
     }
 
     @Override

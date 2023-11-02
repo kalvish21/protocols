@@ -1,5 +1,6 @@
 package com.example.artyzt.ui.dashboard;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +13,9 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.artyzt.databinding.FragmentDashboardBinding;
+import com.example.artyzt.ui.userprofile.UserProfileActivity;
+
+import java.util.logging.Logger;
 
 public class DashboardFragment extends Fragment {
 
@@ -26,7 +30,9 @@ public class DashboardFragment extends Fragment {
         View root = binding.getRoot();
 
         final RecyclerView artistList = binding.dashboardList;
-        artistList.setAdapter(new DashboardAdapter());
+        artistList.setAdapter(new DashboardAdapter(view -> {
+            startActivity(new Intent(getActivity(), UserProfileActivity.class));
+        }));
         artistList.setLayoutManager(new LinearLayoutManager(this.getContext()));
         return root;
     }

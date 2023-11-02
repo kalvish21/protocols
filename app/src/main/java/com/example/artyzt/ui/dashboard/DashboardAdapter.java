@@ -1,6 +1,9 @@
 package com.example.artyzt.ui.dashboard;
 
+import static androidx.core.content.ContextCompat.startActivity;
+
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +15,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.artyzt.R;
 
 public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.ViewHolder> {
+
+    private View.OnClickListener listener;
+    DashboardAdapter(View.OnClickListener listener) {
+        this.listener = listener;
+    }
     @NonNull
     @Override
     public DashboardAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -30,6 +38,8 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.View
         holder.artistExp.setText("5 Years");
         holder.artistLoc.setText("New Jersey");
         holder.artistTalent.setText("Drums");
+
+        holder.itemView.setOnClickListener(listener);
     }
 
     @Override

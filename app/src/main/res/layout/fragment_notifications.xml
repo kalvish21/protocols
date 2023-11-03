@@ -52,6 +52,7 @@
         android:gravity="start|top"
         android:inputType="textMultiLine"
         android:hint="Background: "
+        android:lines="10"
         app:layout_constraintTop_toBottomOf="@id/profile_exp"
         tools:layout_editor_absoluteX="88dp"
         tools:layout_editor_absoluteY="242dp" />

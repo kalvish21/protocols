@@ -1,6 +1,7 @@
 {
   "artists": [
     {
+      "id": 1,
       "firstName": "Shan",
       "lastName": "Shan",
       "talent": "Drums",
@@ -11,26 +12,7 @@
       "favorite": true
     },
     {
-      "firstName": "Rohan",
-      "lastName": "Rohan",
-      "talent": "Trumpet",
-      "location": "New Providence, NJ",
-      "experience": "10 Years",
-      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "contactInfo": "example@artyzt.com",
-      "favorite": true
-    },
-    {
-      "firstName": "Reisa",
-      "lastName": "Mukherjee",
-      "talent": "Piano",
-      "location": "Summit, NJ",
-      "experience": "2 Years",
-      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "contactInfo": "example@artyzt.com",
-      "favorite": true
-    },
-    {
+      "id": 4,
       "firstName": "Rudra Skanda",
       "lastName": "Malladi",
       "talent": "Guitar",
@@ -51,6 +33,7 @@
       "favorite": false
     },
     {
+      "id": 5,
       "firstName": "Sravana",
       "lastName": "Malladi",
       "talent": "Piano",
@@ -61,6 +44,7 @@
       "favorite": false
     },
     {
+      "id": 6,
       "firstName": "Viswanath",
       "lastName": "Malladi",
       "talent": "Drums",
@@ -71,6 +55,7 @@
       "favorite": false
     },
     {
+      "id": 7,
       "firstName": "Sri Siya",
       "lastName": "Malladi",
       "talent": "Piano",
@@ -81,6 +66,18 @@
       "favorite": false
     },
     {
+      "id": 2,
+      "firstName": "Rohan",
+      "lastName": "Rohan",
+      "talent": "Trumpet",
+      "location": "New Providence, NJ",
+      "experience": "10 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": true
+    },
+    {
+      "id": 8,
       "firstName": "Riddah Nag",
       "lastName": "Malladi",
       "talent": "Violin",
@@ -91,6 +88,7 @@
       "favorite": false
     },
     {
+      "id": 9,
       "firstName": "Durga",
       "lastName": "Tenjarla",
       "talent": "Piano",
@@ -101,6 +99,7 @@
       "favorite": false
     },
     {
+      "id": 10,
       "firstName": "Ben",
       "lastName": "Affleck",
       "talent": "Drums",
@@ -111,6 +110,7 @@
       "favorite": false
     },
     {
+      "id": 11,
       "firstName": "Jennifer",
       "lastName": "Lopez",
       "talent": "Vocals",
@@ -121,6 +121,7 @@
       "favorite": false
     },
     {
+      "id": 12,
       "firstName": "Taylor",
       "lastName": "Swift",
       "talent": "Piano",
@@ -131,6 +132,7 @@
       "favorite": false
     },
     {
+      "id": 13,
       "firstName": "Tim",
       "lastName": "Cook",
       "talent": "Trombone",
@@ -141,6 +143,18 @@
       "favorite": false
     },
     {
+      "id": 3,
+      "firstName": "Reisa",
+      "lastName": "Mukherjee",
+      "talent": "Piano",
+      "location": "Summit, NJ",
+      "experience": "2 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": true
+    },
+    {
+      "id": 14,
       "firstName": "Cal",
       "lastName": "Ripken",
       "talent": "Vocals",
@@ -151,6 +165,7 @@
       "favorite": false
     },
     {
+      "id": 15,
       "firstName": "John",
       "lastName": "Abraham",
       "talent": "Guitar",
@@ -161,6 +176,7 @@
       "favorite": false
     },
     {
+      "id": 16,
       "firstName": "Ali",
       "lastName": "Khan",
       "talent": "Drums",
@@ -171,6 +187,7 @@
       "favorite": false
     },
     {
+      "id": 17,
       "firstName": "Ted",
       "lastName": "Turner",
       "talent": "Piano",
@@ -181,6 +198,7 @@
       "favorite": false
     },
     {
+      "id": 18,
       "firstName": "Viraj",
       "lastName": "Mehta",
       "talent": "Violin",
@@ -191,6 +209,7 @@
       "favorite": false
     },
     {
+      "id": 19,
       "firstName": "Ben",
       "lastName": "Peterson",
       "talent": "Piano",
@@ -199,6 +218,17 @@
       "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "contactInfo": "example@artyzt.com",
       "favorite": false
+    },
+    {
+      "id": 19,
+      "firstName": "Steve",
+      "lastName": "Dough",
+      "talent": "Vocals",
+      "location": "Fremont, CA",
+      "experience": "1 Year",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": true
     }
   ]
 }

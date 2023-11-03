@@ -1,0 +1,204 @@
+{
+  "artists": [
+    {
+      "firstName": "Shan",
+      "lastName": "Shan",
+      "talent": "Drums",
+      "location": "Princeton, NJ",
+      "experience": "5 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": true
+    },
+    {
+      "firstName": "Rohan",
+      "lastName": "Rohan",
+      "talent": "Trumpet",
+      "location": "New Providence, NJ",
+      "experience": "10 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": true
+    },
+    {
+      "firstName": "Reisa",
+      "lastName": "Mukherjee",
+      "talent": "Piano",
+      "location": "Summit, NJ",
+      "experience": "2 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": true
+    },
+    {
+      "firstName": "Rudra Skanda",
+      "lastName": "Malladi",
+      "talent": "Guitar",
+      "location": "Berkeley Heights, NJ",
+      "experience": "3 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": true
+    },
+    {
+      "firstName": "Kalyan",
+      "lastName": "Vishnubhatla",
+      "talent": "Clarinet",
+      "location": "Fremont, CA",
+      "experience": "3 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": false
+    },
+    {
+      "firstName": "Sravana",
+      "lastName": "Malladi",
+      "talent": "Piano",
+      "location": "Berkeley Heights, CA",
+      "experience": "10 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": false
+    },
+    {
+      "firstName": "Viswanath",
+      "lastName": "Malladi",
+      "talent": "Drums",
+      "location": "Berkeley Heights, CA",
+      "experience": "6 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": false
+    },
+    {
+      "firstName": "Sri Siya",
+      "lastName": "Malladi",
+      "talent": "Piano",
+      "location": "Berkeley Heights, CA",
+      "experience": "2 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": false
+    },
+    {
+      "firstName": "Riddah Nag",
+      "lastName": "Malladi",
+      "talent": "Violin",
+      "location": "Berkeley Heights, CA",
+      "experience": "12 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": false
+    },
+    {
+      "firstName": "Durga",
+      "lastName": "Tenjarla",
+      "talent": "Piano",
+      "location": "Fremont, CA",
+      "experience": "1 Year",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": false
+    },
+    {
+      "firstName": "Ben",
+      "lastName": "Affleck",
+      "talent": "Drums",
+      "location": "Los Angeles, CA",
+      "experience": "5 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": false
+    },
+    {
+      "firstName": "Jennifer",
+      "lastName": "Lopez",
+      "talent": "Vocals",
+      "location": "Troy, NY",
+      "experience": "10 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": false
+    },
+    {
+      "firstName": "Taylor",
+      "lastName": "Swift",
+      "talent": "Piano",
+      "location": "Summit, NJ",
+      "experience": "1 Year",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": false
+    },
+    {
+      "firstName": "Tim",
+      "lastName": "Cook",
+      "talent": "Trombone",
+      "location": "Los Altos, CA",
+      "experience": "3 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": false
+    },
+    {
+      "firstName": "Cal",
+      "lastName": "Ripken",
+      "talent": "Vocals",
+      "location": "New York, NY",
+      "experience": "3 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": false
+    },
+    {
+      "firstName": "John",
+      "lastName": "Abraham",
+      "talent": "Guitar",
+      "location": "Berkeley Heights, CA",
+      "experience": "10 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": false
+    },
+    {
+      "firstName": "Ali",
+      "lastName": "Khan",
+      "talent": "Drums",
+      "location": "Tampa, FL",
+      "experience": "4.5 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": false
+    },
+    {
+      "firstName": "Ted",
+      "lastName": "Turner",
+      "talent": "Piano",
+      "location": "Berkeley Heights, CA",
+      "experience": "2 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": false
+    },
+    {
+      "firstName": "Viraj",
+      "lastName": "Mehta",
+      "talent": "Violin",
+      "location": "Berkeley Heights, CA",
+      "experience": "1.5 Years",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": false
+    },
+    {
+      "firstName": "Ben",
+      "lastName": "Peterson",
+      "talent": "Piano",
+      "location": "Fremont, CA",
+      "experience": "1 Year",
+      "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "contactInfo": "example@artyzt.com",
+      "favorite": false
+    }
+  ]
+}

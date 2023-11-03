@@ -1,6 +1,8 @@
 package com.example.artyzt.ui.home;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,12 +12,19 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.artyzt.R;
+import com.example.artyzt.ui.userprofile.UserProfileActivity;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public class ArtistHomeAdapter extends RecyclerView.Adapter<ArtistHomeAdapter.ViewHolder> {
 
-    private View.OnClickListener listener;
-    ArtistHomeAdapter(View.OnClickListener listener) {
-        this.listener = listener;
+    private Activity activity;
+    private JSONArray array;
+    ArtistHomeAdapter(Activity activity, JSONArray array) {
+        this.activity = activity;
+        this.array = array;
     }
 
     @NonNull
@@ -32,17 +41,41 @@ public class ArtistHomeAdapter extends RecyclerView.Adapter<ArtistHomeAdapter.Vi
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.artistName.setText("Shan");
-        holder.artistExp.setText("5 Years");
-        holder.artistLoc.setText("New Jersey");
-        holder.artistTalent.setText("Drums");
+        try {
+            JSONObject object = array.getJSONObject(position);
 
-        holder.itemView.setOnClickListener(listener);
+            String fullName = String.format("%s %s", object.getString("firstName"), object.getString("lastName"));
+            holder.artistName.setText(fullName);
+            holder.artistExp.setText(object.getString("experience"));
+            holder.artistLoc.setText(object.getString("location"));
+            holder.artistTalent.setText(object.getString("talent"));
+
+            holder.itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    try {
+                        Intent intent = new Intent(activity, UserProfileActivity.class);
+                        intent.putExtra("fullName", fullName);
+                        intent.putExtra("talent", object.getString("talent"));
+                        intent.putExtra("location", object.getString("location"));
+                        intent.putExtra("experience", object.getString("experience"));
+                        intent.putExtra("biography", object.getString("biography"));
+                        intent.putExtra("contactInfo", object.getString("contactInfo"));
+                        activity.startActivity(intent);
+                    } catch (JSONException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            });
+
+        } catch (JSONException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override
     public int getItemCount() {
-        return 100;
+        return array.length();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

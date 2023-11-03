@@ -12,6 +12,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.artyzt.Data;
 import com.example.artyzt.databinding.FragmentHomeBinding;
 import com.example.artyzt.ui.userprofile.UserProfileActivity;
 
@@ -28,9 +29,7 @@ public class HomeFragment extends Fragment {
         View root = binding.getRoot();
 
         final RecyclerView artistList = binding.artistList;
-        artistList.setAdapter(new ArtistHomeAdapter(view -> {
-            startActivity(new Intent(getActivity(), UserProfileActivity.class));
-        }));
+        artistList.setAdapter(new ArtistHomeAdapter(getActivity(), (new Data()).retrieveAll(getActivity())));
         artistList.setLayoutManager(new LinearLayoutManager(this.getContext()));
         return root;
     }

@@ -11,15 +11,21 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.artyzt.R;
 
+import java.util.ArrayList;
+
 public class UserProfileAdapter extends RecyclerView.Adapter<UserProfileAdapter.ViewHolder>{
 
+    private ArrayList<String> dataList;
+    UserProfileAdapter(ArrayList<String> dataList) {
+        this.dataList = dataList;
+    }
     @NonNull
     @Override
     public UserProfileAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         Context context = parent.getContext();
         LayoutInflater inflater = LayoutInflater.from(context);
 
-        View artistRow = inflater.inflate(R.layout.artist_row, parent, false);
+        View artistRow = inflater.inflate(R.layout.profile_row, parent, false);
 
         UserProfileAdapter.ViewHolder viewHolder = new UserProfileAdapter.ViewHolder(artistRow);
         return viewHolder;
@@ -27,31 +33,18 @@ public class UserProfileAdapter extends RecyclerView.Adapter<UserProfileAdapter.
 
     @Override
     public void onBindViewHolder(@NonNull UserProfileAdapter.ViewHolder holder, int position) {
-        if (position == 0) {
-            holder.artistName.setText("Shan");
-            holder.artistExp.setText("5 Years");
-            holder.artistLoc.setText("New Jersey");
-            holder.artistTalent.setText("Drums");
-        } else {
-            holder.artistName.setText("");
-            holder.artistExp.setText("");
-            holder.artistLoc.setText("");
-            holder.artistTalent.setText("");
-        }
+        holder.profileTextView.setText(dataList.get(position));
     }
 
     @Override
     public int getItemCount() {
-        return 5;
+        return dataList.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         // Your holder should contain a member variable
         // for any view that will be set as you render a row
-        public TextView artistName;
-        public TextView artistExp;
-        public TextView artistLoc;
-        public TextView artistTalent;
+        public TextView profileTextView;
 
         // We also create a constructor that accepts the entire item row
         // and does the view lookups to find each subview
@@ -60,10 +53,7 @@ public class UserProfileAdapter extends RecyclerView.Adapter<UserProfileAdapter.
             // to access the context from any ViewHolder instance.
             super(itemView);
 
-            artistName = (TextView) itemView.findViewById(R.id.artist_name);
-            artistExp = (TextView) itemView.findViewById(R.id.artist_exp);
-            artistLoc = (TextView) itemView.findViewById(R.id.artist_location);
-            artistTalent = (TextView) itemView.findViewById(R.id.artist_talent);
+            profileTextView = (TextView) itemView.findViewById(R.id.profile_text);
         }
     }
 }

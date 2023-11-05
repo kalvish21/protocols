@@ -10,6 +10,17 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class Data {
+
+    public JSONObject retrieveProfile(Context context) {
+        JSONObject json = loadJSONFile(context);
+        try {
+            JSONObject obj = json.getJSONObject("profile");
+            return obj;
+        } catch (JSONException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public JSONArray retrieveFavorites(Context context) {
         JSONObject json = loadJSONFile(context);
         JSONArray array = new JSONArray();
@@ -20,23 +31,19 @@ public class Data {
                     array.put(all.getJSONObject(i));
                 }
             }
+            return array;
         } catch (JSONException e) {
             throw new RuntimeException(e);
         }
-
-        return array;
     }
 
     public JSONArray retrieveAll(Context context) {
         JSONObject json = loadJSONFile(context);
-        JSONArray all = new JSONArray();
         try {
-            all = json.getJSONArray("artists");
+            return json.getJSONArray("artists");
         } catch (JSONException e) {
             throw new RuntimeException(e);
         }
-
-        return all;
     }
 
     private JSONObject loadJSONFile(Context context) {

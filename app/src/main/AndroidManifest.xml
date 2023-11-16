@@ -13,17 +13,18 @@
         android:theme="@style/Theme.Artyzt"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivity"/>
+        <activity
+            android:name=".ui.userprofile.UserProfileActivity"
+            android:label="Artist Detail" />
+        <activity
+            android:name=".LandingPageActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".ui.userprofile.UserProfileActivity"
-            android:label="Artist Detail">
         </activity>
     </application>
 

@@ -8,8 +8,8 @@ android {
 
     defaultConfig {
         applicationId = "com.example.artyzt"
-        minSdk = 33
-        targetSdk = 33
+        minSdk = 29
+        targetSdk = 31
         versionCode = 1
         versionName = "1.0"
 

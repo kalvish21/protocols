@@ -8,6 +8,43 @@
     "experience": "5 Years",
     "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
+  "events": [
+    {
+      "id": 1,
+      "type": "CONCERT",
+      "title": "Concert",
+      "date": "01/25/2024 1:00PM",
+      "location": "Berkeley Heights, NJ"
+    },
+    {
+      "id": 2,
+      "type": "PERFORMANCE",
+      "title": "Performance",
+      "date": "01/25/2024 1:00PM",
+      "location": "Berkeley Heights, NJ"
+    },
+    {
+      "id": 3,
+      "type": "PANEL_DISCUSSION",
+      "title": "Panel Discussion",
+      "date": "01/25/2024 1:00PM",
+      "location": "Berkeley Heights, NJ"
+    },
+    {
+      "id": 4,
+      "type": "WORKSHOP",
+      "title": "Workshop",
+      "date": "01/25/2024 1:00PM",
+      "location": "Berkeley Heights, NJ"
+    },
+    {
+      "id": 5,
+      "type": "OTHER",
+      "title": "Awards",
+      "date": "01/25/2024 1:00PM",
+      "location": "Berkeley Heights, NJ"
+    }
+  ],
   "artists": [
     {
       "id": 1,

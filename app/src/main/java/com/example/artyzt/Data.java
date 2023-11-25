@@ -37,6 +37,16 @@ public class Data {
         }
     }
 
+    public JSONArray retrieveEvents(Context context) {
+        JSONObject json = loadJSONFile(context);
+        try {
+            JSONArray all = json.getJSONArray("events");
+            return all;
+        } catch (JSONException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public JSONArray retrieveAll(Context context) {
         JSONObject json = loadJSONFile(context);
         try {

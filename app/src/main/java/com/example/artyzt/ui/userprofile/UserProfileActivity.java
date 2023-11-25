@@ -1,8 +1,10 @@
 package com.example.artyzt.ui.userprofile;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -21,6 +23,11 @@ public class UserProfileActivity extends AppCompatActivity {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+
+        // Create back button
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
 
         final TextView artistName = findViewById(R.id.artist_name);
         final TextView artistExp = findViewById(R.id.artist_exp);
@@ -41,5 +48,17 @@ public class UserProfileActivity extends AppCompatActivity {
         final RecyclerView recyclerView = findViewById(R.id.userprofile_list);
         recyclerView.setAdapter(new UserProfileAdapter(dataList));
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+        // When back button is clicked
+        if (item.getItemId() == android.R.id.home) {
+            finish();
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }
